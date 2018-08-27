@@ -22,12 +22,24 @@
   font-size: large;
 }
 
-.nav-icon {
+.top-nav-icon {
   background-color: rgba(0,0,0,0.2);
 }
 
-.nav-container {
+.side-nav-icon {
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+.top-nav-container {
   display: inline-block;
+  height: 100px;
+}
+
+.side-nav-container {
+  display: inline-block;
+  width: 100px;
+  height: 50%;
 }
 
 @keyframes App-logo-spin {
